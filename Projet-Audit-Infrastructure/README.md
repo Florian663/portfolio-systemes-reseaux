@@ -27,11 +27,13 @@ Le projet repose sur un environnement virtualisé avec Proxmox et plusieurs mach
 
 L'infrastructure est organisée en plusieurs segments réseau afin de séparer les usages et de limiter les communications entre les différentes zones.
 
-| VLAN / Zone | Réseau          | Passerelle   | Usage                   |
-| ----------- | --------------- | ------------ | ----------------------- |
-| VLAN 10     | 192.168.10.0/24 | 192.168.10.1 | Administration          |
-| VLAN 20     | 192.168.20.0/24 | 192.168.20.1 | Support                 |
-| DMZ         | 192.168.3.0/24  | 192.168.3.1  | Services de supervision |
+| VLAN / Zone | Réseau          | Passerelle   | Usage |
+|-------------|-----------------|--------------|-------|
+| VLAN 10     | 192.168.10.0/24 | 192.168.10.1 | Administration |
+| VLAN 20     | 192.168.20.0/24 | 192.168.20.1 | Support |
+| VLAN 30     | 192.168.30.0/24 | 192.168.30.1 | DMZ – Wazuh / Centreon |
+| VLAN 40     | 192.168.40.0/24 | 192.168.40.1 | Active Directory principal |
+| VLAN 50     | 192.168.50.0/24 | 192.168.50.1 | Active Directory secondaire (CDS) |
 
 Le routage et le filtrage des communications sont assurés par OPNsense.
 
