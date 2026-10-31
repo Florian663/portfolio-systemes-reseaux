@@ -16,21 +16,18 @@ Mon objectif est de développer mes compétences techniques et de contribuer à 
 - Windows Server et Windows 10/11
 - Active Directory, utilisateurs, groupes et GPO
 - Linux
-- Microsoft 365 : Exchange, SharePoint, OneDrive et Intune
-- Gestion des sauvegardes avec Veeam et Acronis
+- Gestion des sauvegardes avec des snapshots
 
 ### Réseaux et infrastructures
 - TCP/IP, VLAN, DHCP et DNS
 - Configuration et administration de pare-feu
-- OPNsense et Stormshield
+- OPNsense et Pfsense
 - Segmentation et filtrage réseau
-- Analyse du trafic avec Wireshark
 
 ### Virtualisation et supervision
-- Proxmox, VMware et Hyper-V
+- Proxmox
 - Wazuh : supervision de la sécurité et détection d'événements
 - Centreon : supervision des infrastructures
-- Synology NAS
 
 ### Cybersécurité
 - Audit d'infrastructure
@@ -42,8 +39,6 @@ Mon objectif est de développer mes compétences techniques et de contribuer à 
 ### Automatisation et outils
 - PowerShell
 - Python
-- GLPI
-- ESET PROTECT
 
 ---
 
@@ -55,7 +50,7 @@ Mon objectif est de développer mes compétences techniques et de contribuer à 
 
 Technologies et outils :
 - Proxmox
-- Windows Server et Active Directory
+- Windows Server, Windows 11 et Active Directory
 - OPNsense
 - Wazuh
 - Centreon
