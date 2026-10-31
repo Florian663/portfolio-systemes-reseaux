@@ -21,7 +21,7 @@ Mon objectif est de développer mes compétences techniques et de contribuer à 
 ### Réseaux et infrastructures
 - TCP/IP, VLAN, DHCP et DNS
 - Configuration et administration de pare-feu
-- OPNsense et Pfsense
+- OPNsense
 - Segmentation et filtrage réseau
 
 ### Virtualisation et supervision
